@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements IDiscoveryListene
 
         List<IDeviceFilter> filterList = new ArrayList<IDeviceFilter>();
         
+        // Discover any BT Device with an address starting with 0.
         filterList.add(new NameAddressFilter("XYZ Random", ".*", "0.*"));
         FilterBluetoothAdapter.getAdapter().startDiscovery(this, filterList, this);
     }
