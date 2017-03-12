@@ -22,7 +22,7 @@ allprojects {
 In the `build.gradle` of your app.
 
 ```
-compile 'com.newtronlabs.bluetoothfilter:bluetoothfilter:1.0.4'
+compile 'com.newtronlabs.bluetoothfilter:bluetoothfilter:1.1.0'
 ```
 
 
