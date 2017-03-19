@@ -10,7 +10,7 @@ The Bluetooth Filter library allows for a more fine grained discovery. Developed
 
 Include the below dependencies in your `build.gradle` project.
 
-```
+```gradle
 allprojects {
     repositories {
         jcenter()
@@ -21,7 +21,7 @@ allprojects {
 
 In the `build.gradle` of your app.
 
-```
+```gradle
 compile 'com.newtronlabs.bluetoothfilter:bluetoothfilter:1.1.0'
 ```
 
