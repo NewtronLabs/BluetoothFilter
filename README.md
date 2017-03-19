@@ -30,7 +30,7 @@ compile 'com.newtronlabs.bluetoothfilter:bluetoothfilter:1.1.0'
 
 Implement the `IDiscoveryListener`
 
-```android
+```java
 public class MainActivity extends AppCompatActivity implements IDiscoveryListener
 {
     @Override
