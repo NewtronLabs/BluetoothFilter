@@ -11,6 +11,17 @@ The Bluetooth Filter library allows for a more fine grained discovery. Developed
 Include the below dependencies in your `build.gradle` project.
 
 ```gradle
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "http://code.newtronlabs.com:8081/artifactory/libs-release-local" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath "com.newtronlabs.android:plugin:1.1.0"
+    }
+}
+
 allprojects {
     repositories {
         jcenter()
@@ -22,7 +33,11 @@ allprojects {
 In the `build.gradle` of your app.
 
 ```gradle
-compile 'com.newtronlabs.bluetoothfilter:bluetoothfilter:1.1.0'
+apply plugin: 'com.newtronlabs.android'
+
+dependencies {
+    provided 'com.newtronlabs.bluetoothfilter:bluetoothfilter:2.0.0'
+}
 ```
 
 
