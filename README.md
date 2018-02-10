@@ -1,3 +1,7 @@
+Please take a few minutes and let us know how we are doing by filling out this survey: https://goo.gl/forms/97TYeG6Wx5CA4lBV2
+
+---
+
 # Bluetooth Filter
 
 The Bluetooth Filter library allows for a more fine grained discovery. Developed with purpose-build Android application were they connect to one or two specific Bluetooth devices in mind. The Bluetooth Filter library allows those apps to only provide a minimum list of results to their users instead of the usual general list of all devices found. 
