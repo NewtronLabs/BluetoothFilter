@@ -106,5 +106,5 @@ You are solely responsible for determining the appropriateness of using Bluetoot
 
 ## Contact
 
-contact@newtronlabs.com
+solutions@newtronlabs.com
 
